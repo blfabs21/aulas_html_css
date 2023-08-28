@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Select option </title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+         <!-- input rádio -->
+         <div>
+            <p> Você gosta de fruta</p>
+         <div>
+         <div>
+            <input type="radio" id="Sim" name="gosta-fruta">
+            <label for="sim">Sim</label>
+        </div> 
+        <div>
+            <input type="radio" id="Não" name="gosta-fruta">
+            <label for="sim">Não</label>
+            </div>
+         </div>
+
+         <!-- select option -->
+         <div>
+            <label for="turma"> Selecione sua turma:</label>
+            <select name="turma" id="turma">
+                <option selected disabled> selection... </option>
+                <option value="01Ta"></option>
+                <option value="01Tb"></option>
+                <option value="01Tc"></option>
+            </select>
+         </div>
+
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
