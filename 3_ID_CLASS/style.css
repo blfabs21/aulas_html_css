@@ -1,0 +1,24 @@
+#titulo {
+    color: rgb(222, 57, 153);
+}
+.verde {
+    color: rgb(222, 57, 2153);
+}
+
+h1 {
+    color:  rgb(222, 57, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(222, 57, 153);
+}
+
+h1 {
+    color: pink;
+}
+
+.titulos-grandes {
+    font-size: 50px;
+}
+
