@@ -1,0 +1,20 @@
+.caixa_width {
+ border-width: 20px;
+ border-style: solid;
+ border-color: deeppink;
+
+border: 2px solid deeppink ;
+
+ width: 200px ;
+}
+
+.imagem_width {
+    width: 400px;
+} 
+
+.caixa_height {
+    border: 1px dashed deeppink ;
+
+    height: 200px;   
+    width: 200px;     
+}
